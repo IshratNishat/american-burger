@@ -1,0 +1,358 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ 'Alfa Slab One', cursive;
+ 'Bebas Neue', cursive;
+ 'Montserrat', sans-serif;
+
+/*Global CSS here*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+}
+p, span, input{
+	font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6,button{
+	font-family: 'Bebas Neue', cursive;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+
+/***********************************
+        header part CSS
+************************************/
+
+header{
+	width: 100%;
+	background: url(../image/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 120vh; 
+}
+.navbar-brand{
+	    margin-top: -90px !important;
+}
+.nav-item{	
+    margin-left: 25px;
+}
+
+.nav-link{
+	font-size: 18px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514 !important;
+	letter-spacing: 3px !important;
+}
+.right-top{
+	margin-left: 783px;
+    margin-top: 50px;
+}
+
+.right-top span{
+	font-family: 'Montserrat', sans-serif;
+    color: #3d2514 !important;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 5px;
+}
+/***********************************
+        banner  part CSS
+************************************/
+.banner{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 70vh;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+.banner .pre-text{
+	font-size: 18px;
+    border: 2px dashed;
+    display: inline-block;
+    padding: 7px 9px;
+}
+.banner .title{
+	font-size: 87px;
+	text-shadow: 3px 3px #fee8bb;
+}
+.banner .sub-title{
+	font-size: 43px;
+	text-shadow: 3px 3px #fee8bb;
+}
+
+/***********************************
+        burger blog part CSS
+************************************/
+.burger-blog{
+	width: 100%;
+}
+
+.blog-info, .upper-post, .lower-post{
+	position: relative;
+}
+
+.blog-title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+	color: white;
+	padding: 20px; 
+}
+.blog-title h3{
+	font-size: 43px;
+}
+
+.upper-post .blog-title h3, .lower-post .blog-title h3{
+    font-size: 39px;
+    line-height: 37px;
+}
+.upper-post .blog-title h4, .lower-post .blog-title h4{   
+    line-height: 17px;
+}
+.upper-post{
+	margin-bottom: 33px;
+}
+
+
+
+/***********************************
+   Product cataloge part part CSS
+************************************/
+.product{
+	width: 100%;
+	text-align: center;
+}
+.top .bottom{
+	margin-bottom: 50px;
+}
+
+.blog-button{
+	text-align: center;
+	margin-top: 60px;
+	background-color: #ffc045;
+	margin-left: 480px;
+	margin-right: 480px;
+}
+
+.blog-button p{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	font-size: 18px;
+    padding: 6px 12px;
+}
+.product-title{
+	color: #3d2514;
+	text-align: center;
+	padding: 10px 30px;
+}
+
+.product-title h1{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.bottom{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.cat-text{
+	color: #3d2514;
+}
+
+.order-now{
+	font-family: 'Alfa Slab One', cursive !important;
+	background: #bf2222 !important;
+	border: none;
+    padding: 13px 30px;
+    color: white;
+}
+
+.burger-text2{
+	margin-top: -43px;
+}
+
+
+/***********************************
+   slider box part part CSS
+************************************/
+.box{
+	width: 100%;
+	padding: 50px 130px;
+}
+
+.box-body{
+	box-shadow: 6px 5px 12px 0 rgba(0,0,0,0.5);
+	transition: all 0.5s ease-in-out;
+	padding: 20px;
+}
+
+.box-text{
+	padding: 40px 50px;
+}
+.box-text h5 p{
+	color: #3d3d3d;
+}
+
+.box-text p{
+	color: #3d3d3d;
+}
+.box-text h3{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.owl-theme .owl-nav{
+	display: none;
+}
+.owl-theme .owl-dots{
+	position: absolute;
+    bottom: 0;
+    left: 55px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #ffc045;
+}
+
+/***********************************
+   table part part part CSS
+************************************/
+.table{
+	width: 100%;
+	background-image: url(../image/table.png);
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.table-title{
+	color: #3d2514;
+	text-align: center;
+	margin-left: 330px;
+    margin-top: 50px;
+}
+.table-input{
+	padding: 50px 300px;
+}
+.table-input input{
+    padding: 12px 7px;
+    margin: 10px 0;
+    width: 255px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.table-input button{
+	width: 255px;
+    font-size: 17px;
+    margin: 10px 0;
+    padding: 12px;
+    color: white;
+    background: #bf2222;
+    font-family: 'Alfa Slab One', cursive;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #bf2222;
+}
+
+/***********************************
+   footer part part part CSS
+************************************/
+.footer{
+	width: 100%;
+	background-image: url(../image/last-pic.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+	margin: 30px 0;
+}
+
+.left-side{
+	margin-top: 95px;
+}
+
+.left-text{
+	color: white;
+}
+.left-text p{
+	margin-top: 52px;
+    margin-bottom: 152px;
+    padding: 0 18px;
+
+}
+
+.left-text span{
+	font-family: 'Bebas Neue', cursive;
+}
+
+
+.addr ul{
+	list-style: none;
+	display: inline-block;
+	margin: 200px 0;
+    padding-left: 10px;
+    margin-left: 159px;
+}
+.addr ul li{
+	color: white;
+}
+.addr ul li i{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 17px;
+    margin-right: 15px;
+}
+.icons{
+	margin-left: 326px;
+}
+.icons ul li i{
+	cursor: pointer;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: white;
+    line-height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
